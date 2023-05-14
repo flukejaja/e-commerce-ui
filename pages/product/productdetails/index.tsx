@@ -166,7 +166,7 @@ const ProductDetailspage = () => {
                             <div className="h-full w-14 flex justify-center items-center ">1</div>
                             <Button icon={<PlusOutlined />} className=" flex justify-center items-center" />
                         </div>
-                        <button className="bg-blue-200 py-5 px-5 rounded-full text-white font-semibold">Add to cart</button>
+                        <button className="bg-blue-200 px-4 text-[16px] rounded-full text-white font-semibold">Add to cart</button>
                     </span>
                 </div>
             </div>
@@ -223,7 +223,7 @@ const ProductDetailspage = () => {
                         <span className="flex flex-col items-center justify-center w-[60%]">
                             <span className="flex flex-row  w-full justify-between  items-center">
                                 <p className="w-4/6 whitespace-nowrap">Ariana Grande</p>
-                                <p className="w-2/4"><Rate value={4} /></p>
+                                <p className="w-2/6"><Rate value={4} style={{fontSize:12}} /></p>
                             </span>
                             <span>
                                 Quod autem in homine praestantissimum atque optimum est,id deseruit.
@@ -244,7 +244,7 @@ const ProductDetailspage = () => {
                     <div className="flex flex-row space-x-4 justify-center">
                         <span className="flex flex-col items-center justify-center w-[60%]">
                             <span className="flex flex-row  w-full justify-between items-center">
-                                Your Rating   <Rate />
+                                Your Rating   <Rate style={{fontSize:12}} />
                             </span>
                         </span>
                     </div>
