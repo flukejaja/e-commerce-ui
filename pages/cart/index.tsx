@@ -1,5 +1,6 @@
 import { Button } from "antd";
 import Image from "next/image";
+import Link from "next/link";
 
 const Cartpage = (props: { open: boolean, handle: Function }) => {
     const { open, handle } = props;
@@ -28,9 +29,9 @@ const Cartpage = (props: { open: boolean, handle: Function }) => {
                         Total: <p className="font-light pl-2">$39.00</p>
                     </div>
                     <div className="p-14 flex-row flex space-x-3">
-                        <a href="/shopingcart">
-                            <Button>VIEW CART</Button>
-                        </a>
+                        <Link href="/shopingcart">
+                            <a><Button>VIEW CART</Button></a>
+                        </Link>
                         <Button>CHECK OUT</Button>
                     </div>
                 </div>
