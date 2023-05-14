@@ -49,20 +49,20 @@ const Productpage = () => {
         <div className="w-full justify-center flex my-5">
             <div className="bg-white flex flex-col  items-start w-[80rem] max-w-full space-y-5 " >
                 <div className="h-10 bg-white"></div>
-                <nav className="h-14 flex flex-wrap items-center w-full px-3 ">
-                    <ul className="flex flex-row space-x-3 grow ">
+                <nav className="h-fit flex flex-col md:flex-row  w-full px-3 space-y-2 md:space-y-0 ">
+                    <ul className="flex flex-row space-x-2 w-1/2 items-center">
                         {
                             productsNav.map((data, idx) => (
-                                <li key={idx} onClick={() => filterProduct(data)} className={` whitespace-nowrap cursor-pointer text-gray-400 hover:text-black hover:border-b
+                                <li key={idx} onClick={() => filterProduct(data)} className={`text-sm md:text-lg whitespace-nowrap cursor-pointer text-gray-400 hover:text-black hover:border-b
                          border-black`}>
                                     {data}
                                 </li>
                             ))
                         }
                     </ul>
-                    <ul className="flex flex-row space-x-5 grow justify-end ">
-                        <li className="flex items-center space-x-2 border px-5 py-2 cursor-pointer hover:bg-blue-200"><IoFilterOutline /> <p className="text-gray-400">Filter</p></li>
-                        <li className="flex items-center space-x-2 border px-5 py-2 cursor-pointer hover:bg-blue-200 "><AiOutlineSearch /> <p className="text-gray-400">Search</p></li>
+                    <ul className="flex space-x-5 justify-center  pl-12 md:pl-auto md:justify-end w-1/2 text-md">
+                        <li className="flex items-center border p-2 cursor-pointer hover:bg-blue-200"><IoFilterOutline /> <p className="text-gray-400 pl-2 ">Filter</p></li>
+                        <li className="flex items-center border p-2 cursor-pointer hover:bg-blue-200 "><AiOutlineSearch /> <p className="text-gray-400 pl-2">Search</p></li>
                     </ul>
                 </nav>
                 <div className="product-list flex flex-wrap w-full justify-center ">
