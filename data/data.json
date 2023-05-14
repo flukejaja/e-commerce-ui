@@ -1,0 +1,98 @@
+[
+    {
+        "image": "/images/product-01.jpg",
+        "name": "Esprit Ruffle Shirt",
+        "price": 16.64,
+        "type": "Women"
+    },
+    {
+        "image": "/images/product-02.jpg",
+        "name": "Herschel supply",
+        "price": 35.31,
+        "type": "Women"
+    },
+    {
+        "image": "/images/product-03.jpg",
+        "name": "Only Check Trouser",
+        "price": 25.50,
+        "type": "Men"
+    },
+    {
+        "image": "/images/product-04.jpg",
+        "name": "Classic Trench Coat",
+        "price": 75.00,
+        "type": "Women"
+    },
+    {
+        "image": "/images/product-05.jpg",
+        "name": "Front Pocket Jumper",
+        "price": 34.75,
+        "type": "Women"
+    },
+    {
+        "image": "/images/product-06.jpg",
+        "name": "Vintage Inspired Classic",
+        "price": 93.20,
+        "type": "Watches"
+    },
+    {
+        "image": "/images/product-07.jpg",
+        "name": "Shirt in Stretch Cotton",
+        "price": 52.66,
+        "type": "Women"
+    },
+    {
+        "image": "/images/product-08.jpg",
+        "name": "Pieces Metallic Printed",
+        "price": 18.96,
+        "type": "Women"
+    },
+    {
+        "image": "/images/product-09.jpg",
+        "name": "Converse All Star Hi Plimsolls",
+        "price": 75.00,
+        "type": "Shoes"
+    },
+    {
+        "image": "/images/product-10.jpg",
+        "name": "Femme T-Shirt In Stripe",
+        "price": 25.85,
+        "type": "Women"
+    },
+    {
+        "image": "/images/product-11.jpg",
+        "name": "Herschel supply",
+        "price": 63.16,
+        "type": "Men"
+    },
+    {
+        "image": "/images/product-12.jpg",
+        "name": "Herschel supply",
+        "price": 63.15,
+        "type": "Men"
+    },
+    {
+        "image": "/images/product-13.jpg",
+        "name": "T-Shirt with Sleeve",
+        "price": 18.49,
+        "type": "Women"
+    },
+    {
+        "image": "/images/product-14.jpg",
+        "name": "Pretty Little Thing",
+        "price": 54.79,
+        "type": "Women"
+    },
+    {
+        "image": "/images/product-15.jpg",
+        "name": "Mini Silver Mesh Watch",
+        "price": 86.85,
+        "type": "Watches"
+    },
+    {
+        "image": "/images/product-16.jpg",
+        "name": "Square Neck Back",
+        "price": 29.64,
+        "type": "Women"
+    }
+]
