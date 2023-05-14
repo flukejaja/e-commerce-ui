@@ -1,3 +1,4 @@
+
 const Footer = () => {
     return (<div className=" bg-[#222222]  flex justify-center items-center flex-wrap text-white">
         <div className="w-[80rem] flex flex-wrap w-max-full h-full items-center justify-center">
